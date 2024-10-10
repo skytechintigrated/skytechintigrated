@@ -1,0 +1,123 @@
+html{
+ background: Orange;
+}
+
+.main{
+  width: 100%
+  background-position: center'
+  background-size: cover;
+  background: #fff;
+  height: 12vh;
+  position: relative;
+  font-family: sans-serif;
+}
+
+.navbar{
+  width: 86%;
+  display: flex;
+  margin: auto;
+  padding: 15px 0;
+  align-item: center;
+  justify-contact: space-between;
+}
+ 
+.navbar .logo{
+  width: 70px;
+  hieght: 90px; 
+  cursor: pointer;
+  margin-top: -1%;
+  margin-left: 15%;
+}
+
+ul{
+  text-align: right;
+}
+
+ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 10px 16px;
+  font-size: 16px;
+  font-width: bold;
+  text-decoration: none;
+  color: #000;
+  margin: -2%;
+  margin-left: 80px;
+  margin-top: -20px;
+  transition: .4s ease;
+  background-color: #fff;
+}
+
+ul li:hover{
+  color: tomato;
+}
+
+.info{
+  font-size: 30px;
+  margin: 20px;
+  display: inline-block;
+  margin: 50px;
+  right: 10%;
+  button: 0;
+}
+ 
+.info a{
+  text-decoration: none;
+  color: #000;
+  background: #fff;
+  margin: 2px 0;
+  padding: 10px 18px;
+  border-radius: 10px;
+  display: inline-block;
+  transition: .4s ease;
+}
+
+.info a:hover{
+  background: tomato;
+}
+
+.address{
+margin-left: -100px;
+}
+
+.image{
+hieght: 70%;
+width: 65%;
+position: absolute;
+right: 100px;
+button: 0;
+border-radius: 600px;
+margin-top: -350px;
+}
+
+.image img{
+position: absolute;
+hieght: 140%;
+left: 80%;
+transform: translate(-55%);
+transition: left 2s ease;
+button: 0;
+}
+
+image:hover .image{
+left: -55%;
+}
+
+.icon{
+  margin-top: -105px;
+  margin-left: 145px;
+}
+
+.navbar{
+margin-left: -100px;
+}
+
+.contact{
+  font-size: 30px;
+  margin-left: -91px;
+}
+
+
+
+
+  
