@@ -7,7 +7,7 @@ html{
   background-position: center'
   background-size: cover;
   background: #fff;
-  height: 12vh;
+  height: 8vh;
   position: relative;
   font-family: sans-serif;
 }
@@ -25,7 +25,7 @@ html{
   width: 70px;
   hieght: 90px; 
   cursor: pointer;
-  margin-top: -1%;
+  margin-top: -2%;
   margin-left: 15%;
 }
 
@@ -41,9 +41,8 @@ ul li{
   font-width: bold;
   text-decoration: none;
   color: #000;
-  margin: -2%;
+  margin: -3%;
   margin-left: 80px;
-  margin-top: -20px;
   transition: .4s ease;
   background-color: #fff;
 }
@@ -86,7 +85,7 @@ width: 65%;
 position: absolute;
 right: 100px;
 button: 0;
-border-radius: 600px;
+border-radius: 300px;
 margin-top: -350px;
 }
 
