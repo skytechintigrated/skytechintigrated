@@ -1,0 +1,45 @@
+html{
+  background: #456790;
+}
+
+.hamburger {
+            position: fixed;
+            z-index: 100;
+            top: 1rem;
+            right: 1rem;
+            padding: 4px;
+            border: #fff 1px;
+            background: none;
+            cursor: pointer;
+        }
+
+        .closeIcon {
+            display: none;
+        }
+
+        .menu {
+            position: fixed;
+            transform: translateY(-100%);
+            transition: transform 0.2s;
+            font-size: 40px;
+            top: -55px;
+            left: 350px;
+            right: 0;
+            bottom: 0;
+            z-index: 99;
+            background: #ffffff;
+            color: #0000000;
+            list-style: none;
+            padding-top: 4rem;
+            text-align: center;S
+        }
+
+        .showMenu {
+            transform: translateY(0);
+        }
+
+.photo{
+   height: 280px;
+   width: 260px;
+   border-radius: 500px;
+}
